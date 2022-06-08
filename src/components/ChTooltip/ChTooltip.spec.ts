@@ -15,5 +15,6 @@ describe('ChTooltip', () => {
     await wrapper.find('button').trigger('click')
 
     expect(wrapper.html()).toContain('Hello Vitest')
+    expect(true).toBe(false)
   })
 })
